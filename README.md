@@ -15,22 +15,10 @@
   
   ## Live
   
-  https://agodse21.github.io/weather-app/
+  https://NayanSingh155.github.io/weather-app/
   
-  ## Demo
   
-  https://www.linkedin.com/posts/amol-godse-patil_journeywithmasai-lifeatmasai-masaistudents-activity-6985205822247108608-mCo-/?utm_source=share&utm_medium=member_desktop
-  
-  ## 🚀 Features
-- Saving the weather data in redux-store and session-storage to reduce the dependency of network requests
-- Search weather details according to the city
-- Detect your current location for displaying weather data
-- Shows a map of that location
-- Sync data to get the latest updated details of the current weather
-- Toast notification for every action
-- Pop up modal to display extra details of seven-day forecast weather
-- Cool zoom-in zoom-out animations 
-- Responsive for every screen size.
+-
 
 <br/>
 
@@ -46,8 +34,3 @@
 
 ![Screenshot 2022-10-10 220918](https://user-images.githubusercontent.com/103682371/194930401-3be5625c-d98f-4144-a3c6-ec4cdf2c12b2.jpg)
 
-
-## For Working you have need a basic setup
-Install <b>npm<b>
-    <br />
-npm start
