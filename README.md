@@ -1,6 +1,6 @@
 # #Weather☁️
 It gives you the weather details of present day along with future forecast of seven days of searched city.
-check [Live](https://rohit1-1.github.io/Weather-forecast/)
+<h3>check [Live](https://thriving-speculoos-37e811.netlify.app/)<h3/>
 
 # #This site is made using HTML , CSS , Javascript , DOM & API 😇
 
