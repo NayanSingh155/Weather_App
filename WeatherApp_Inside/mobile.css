@@ -1,0 +1,68 @@
+@media all and (min-width:240px) and (max-width:480px){
+    .gmap_canvas {
+        overflow:hidden;
+        background:none!important; 
+        height: 800px!important;
+        }
+        .frame{
+        width: 100%;
+        height: 100%!important;
+       
+        display: none; 
+     
+        }
+        .frameV{
+        display:block;
+        }
+        #parent{
+        width: 100%;
+   
+        position: relative;
+        
+       
+        }
+        #input{
+        width: 80%;
+        top: 70px;
+        left: 11%;        
+        }
+
+      
+        #srch:hover{
+        cursor: pointer;
+        background-color: rgb(13, 99, 211);
+        }
+        .temp-cont{    
+        width: 90%;
+        top: 22.5%;
+        left: 5%;
+        }
+       
+      
+        .popltn{
+        width: 75%;       
+       top: 61%;
+        right:46px;      
+        }
+
+        .days{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 10px;
+        width: 100%;
+       position: static;
+       padding: 20px;
+        margin: auto;
+        left: 68px;
+        opacity: 0;
+       background-image: url("https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8d2VhdGhlcnxlbnwwfDF8MHx8&auto=format&fit=crop&w=700&q=60");     
+      
+        }    
+        .days>div>h4{  
+        font-size: 24px;
+        }
+        .visible{
+        opacity: 1;
+        
+        }
+}

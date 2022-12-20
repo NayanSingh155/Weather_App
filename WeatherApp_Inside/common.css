@@ -1,0 +1,249 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.gmap_canvas {
+overflow:hidden;
+background:none!important;  
+   
+}
+.frame{
+width: 100%;
+height: 642px;
+display: none; 
+}
+.frameV{
+display:block;
+}
+#parent{
+width: 100%;
+position: relative;
+height: 644px;
+}
+#input{
+width: 45%;
+display: flex;
+justify-content: center;
+box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+background-color: rgb(240, 235, 235);
+padding: 5px;
+position: absolute;
+top: 50px;
+left: 28%;
+border-radius: 6px;
+
+}
+#city{
+width: 69%;
+margin-right: 8px;
+padding: 7px 4px;
+border-radius: 4px;
+border: 1px solid  rgb(13, 99, 211);
+
+}
+
+#srch{
+width: 25%;
+padding: 5px 0px;
+border: none;
+background-color: rgb(60, 136, 235);
+color:#ffff;
+border-radius: 5px;
+}
+#srch:hover{
+cursor: pointer;
+background-color: rgb(13, 99, 211);
+}
+.temp-cont{
+border-radius: 10px;
+border: 2.5px solid #fff;
+display: flex;
+width: 25%;
+justify-content: space-around;
+padding: 9px 0px 9px 0px;
+position: absolute;
+top: 26.5%;
+left: 46px;
+/* box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px; */
+box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+background: rgba(0,0,0,0.65);
+opacity: 0;
+}
+#temp{
+width: 46%;
+
+}
+#temp>h3{
+text-align: center;
+color: #fff;
+margin-bottom: 5px;
+margin-top: 6px;
+font-size: 23px;
+font-family: 'Nunito', sans-serif;
+}
+#temp>h3+div>img{
+
+width: 100%;
+height: 100%;
+
+}
+#temp>h3+div{
+padding: 0px 0px 0px 1px;
+
+}
+.img>img{
+margin-right: 4px;
+}
+
+#temp>div{
+width: 100%; 
+}
+
+#detl{
+border-radius: 10px;
+width: 45%;
+font-size: 16px;
+padding: 0px 0px 8px 0px;
+background: rgba(0,160,190,0.5);
+/* background: rgba(255, 255, 255, 0.03); */
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#detl>h5{
+text-align: center;
+color: #fff;
+padding: 0;  
+font-size: 16px;
+margin-bottom: 8px;
+margin-top: 14px;
+font-family: 'Poppins', sans-serif;
+}
+
+.disdetl{
+display: flex;
+justify-content: space-around;
+align-items: center;
+/* border: 1px solid black; */
+margin-top: 2px;  
+
+}
+
+
+.disdetl>div>img{
+width: 13px;
+height: 13px;
+/* background-color: rgb(192, 194, 196); */
+
+}
+.disdetl>div,p{
+font-size: 12px;
+padding: 2px;
+margin: 0;
+/* color: rgb(192, 194, 196); */
+font-family: 'Poppins', sans-serif;
+color: #fff;
+}
+.img{
+display: flex;
+}
+.popltn{
+width: 18%;
+height: 194px;
+border: 2.7px solid white;
+position: absolute;
+top: 19.5%;
+right:46px;
+padding: 10px;
+background: rgba(0,0,0,0.65);
+border-radius: 7px;
+box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+opacity: 0;
+
+}
+#mark{
+text-align: center;
+margin-top: 6px;
+}
+.popltn>h2{
+text-align: center;
+margin-bottom: 10px;
+color: #fff;
+}
+.popltn>div{
+display: flex;
+justify-content: space-around;
+margin-top: 20px;
+}
+.popltn>div>p{
+font-size: 18px;
+}
+.days{
+display: grid;
+grid-template-columns: repeat(7,1fr);
+gap: 10px;
+width: 90%;
+position: absolute;
+bottom:20px;
+left: 68px;
+opacity: 0;
+/* border: 1px solid black; */
+
+}
+.days>div{
+/* border: 1px solid black; */
+/* height: 120px; */
+padding: 10px 5px;
+background: rgba(0,0,0,0.65);
+border-radius: 10px;
+border: 3px solid #fff;
+box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.days>div>h5{
+text-align: center;
+margin-bottom: 5px;
+color: #fff;
+font-size: 15px;
+}
+.first{
+display: flex;
+/* border: 1px solid black; */
+justify-content: space-around;
+align-items: center;
+}
+.first>div{
+width: 40%;
+
+}
+.first>div>img{
+
+width: 100%;
+}
+.dy-temp{
+display: flex;
+justify-content: space-between;
+
+}
+.first>h5{
+color: #fff;
+font-size: 17px;
+}
+.default{
+width: 100%; 
+height: 100%;
+
+}
+.defaultV{
+display: none;
+}
+hr{
+margin-top: 10px;
+}
+.days>div>h4{
+text-align: center;
+color: #fff;
+}
+.visible{
+opacity: 1;
+
+}
